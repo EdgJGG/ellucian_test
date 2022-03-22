@@ -1,0 +1,470 @@
+
+html  {
+    direction:rtl;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    font-family:arial, sans-serif;
+    font-size:100%;
+}
+
+body  {
+    margin:0;
+    padding:0;
+    height:100%;
+    overflow:hidden;
+    position:relative;
+    min-height:512px !important;
+}
+
+
+.branding  {
+    position:relative;
+    clear:both;
+    padding:5px 5px 0 15px;
+}
+
+.institutionalBranding  {
+    position:relative;
+    float:right;
+    right:10px;
+    top:11px;
+    height:19px;
+    width:179px;
+    background:url("images/ellucian-university-logo-sm.png") no-repeat;
+}
+
+.information  {
+    position:relative;
+    float:left;
+    top:10px;
+    left:10px;
+}
+
+.information span  {
+    font-size:0.88em;
+    color:#5c5c5c;
+}
+
+/* global nav (a.k.a. 'information') */
+
+#globalNav  {
+    padding:0px;
+    margin:0px;
+    height:22px;
+    float:left;
+    color:#fff;
+    margin:10px 0 0 0;
+    position:relative;
+    z-index:1100;
+}
+
+#globalNav > div  {
+    height:22px;
+}
+
+#globalNav .globalnav-list  {
+    padding:0px;
+    margin:0px;
+    margin-right:7px;
+    margin-left:7px;
+    height:22px;
+}
+
+#globalNav .globalnav-list-item  {
+    margin:0px;
+    list-style:none;
+    float:right;
+    height:12px;
+    padding:2px 0px 0px 8px;
+    position:relative;
+    border-right:1px solid #FFFFFF;
+    border-left:medium none;
+}
+#globalNav .globalnav-list-item:first-child  {
+    border-right:none;
+}
+
+#globalNav li a  {
+    padding-right:24px;
+    color:#fff;
+    text-decoration:none;
+}
+
+#globalNav li .mepChangeLink  {
+    padding-right:5px;
+}
+
+.mepHomeContextText  {
+    padding-right:5px;
+}
+
+.signOutText, .signInText  {
+    background:url("images/lock_icon.png") no-repeat 10px center;
+}
+
+.helpText  {
+    background:url("images/help_icon.png") no-repeat 8px center;
+}
+
+#globalNav li a.preferenceText  {
+    background:url("images/gear_icon.png") no-repeat 6px center;
+}
+
+#content  {
+    overflow-x:auto;
+    overflow-y:auto;
+    margin:0;
+    padding:0;
+    width:100%;
+    min-height:407px;
+    position:absolute;
+    top:75px;
+    bottom:30px;
+    right:0;
+}
+
+.pointer  {
+    cursor:pointer;
+}
+
+.bold  {
+    font-weight:bold;
+}
+
+.spacer  {
+    float:right;
+    clear:both;
+    width:100%;
+    height:10px;
+    background:transparent;
+}
+
+.bottomDropShadow  {
+    float:right;
+    width:100%;
+    height:9px;
+}
+
+#helpWindow  {
+    position:absolute;
+    float:right;
+    z-index:1000;
+    top:-344px;
+    left:5px;
+    display:block;
+}
+
+
+#helpWindowTab  {
+    display:none;
+    background:url('images/help_window_tab.png') no-repeat;
+    position:relative;
+    clear:both;
+    float:left;
+    width:77px;
+    height:17px;
+    top:-1px;
+    cursor:pointer;
+}
+
+#helpWindowTab #helpWindowTabText  {
+    float:left;
+    font-size:0.75em;
+    color:#0084d5;
+    padding:0 0 0 30px;
+}
+
+
+#helpWindowControls  {
+    background:url('images/help_window_controls.png') no-repeat;
+    float:right;
+    width:350px;
+    height:32px;
+}
+
+#helpWindowTop  {
+    background:url('images/help_window_top.png') no-repeat;
+    float:right;
+    clear:both;
+    width:350px;
+    height:14px;
+}
+
+#helpWindowMiddle  {
+    background:url('images/help_window_middle.png') repeat-y;
+    float:right;
+    clear:both;
+    width:350px;
+    height:275px;
+}
+
+#helpWindowBottom  {
+    background:url('images/help_window_bottom.png') no-repeat;
+    float:right;
+    clear:both;
+    width:350px;
+    height:17px;
+}
+
+#helpWindowMiddle #helpWindowContent  {
+    padding:5px 15px 0 0;
+    right:0px;
+    left:0px;
+    width:323px;
+    height:271px;
+}
+
+#helpWindowControls #helpWindowCloseButton  {
+    background:url('images/sun001_cg_closemnidle.png') no-repeat;
+    position:relative;
+    display:block;
+    top:7px;
+    left:9px;
+    float:left;
+    width:18px;
+    height:18px;
+    text-decoration:none;
+}
+
+#helpWindowControls #helpWindowCloseButton:hover  {
+    background:url('images/sun001_cg_closemnselect.png') no-repeat;
+}
+
+#helpWindowControls #helpWindowIcon  {
+    background:url('images/sun001_cg_helpindacator.png') no-repeat;
+    position:relative;
+    display:block;
+    float:right;
+    top:7px;
+    right:10px;
+    width:9px;
+    height:20px;
+}
+
+#helpWindowControls #helpWindowTitle  {
+    position:relative;
+    display:block;
+    float:right;
+    top:10px;
+    right:15px;
+    font-size:0.75em;
+    color:#0084d5;
+}
+
+/* container */
+#openItemsContainer  {
+    width:240px;
+    z-index:2;
+    position:absolute;
+    bottom:-1px;
+    float:right;
+    display:none;
+    background:transparent;
+}
+
+/* header */
+#headerCloseButton  {
+    background:url('images/openitems/icon-header-close.gif') no-repeat top right;
+    width:9px;
+    height:8px;
+    position:absolute;
+    left:10px;
+    margin:10px 0px 25px 0px;
+    cursor:pointer;
+}
+
+#openItemsHeader  {
+    background:url('images/openitems/header-center.jpg') repeat-x top right;
+    height:31px;
+    cursor:default;
+}
+
+#openItemsHeader div  {
+    background:url('images/openitems/header-cap-left.jpg') no-repeat top left;
+    height:31px;
+}
+
+#openItemsHeader div h3  {
+    margin:0px;
+    background:url('images/openitems/header-cap-right.jpg') no-repeat top right;
+    height:25px;
+    color:#0C60A6;
+    font:bold .8em Arial, sans-serif;
+    padding:6px 10px 0px 0px;
+    float:right;
+}
+
+#openItemsHeader div img  {
+    float:left;
+    margin:11px 0px 0px 10px;
+    cursor:pointer;
+}
+
+/* body */
+#openItemsBody  {
+    border-right:1px #9AC0D2 solid;
+    border-left:1px #9AC0D2 solid;
+    background-color:#ffffff;
+}
+
+#categoryList  {
+    margin:0px;
+    padding:0px;
+    list-style:none;
+    color:#999;
+    font:.75em Arial, sans-serif;
+    height:150px;
+    overflow:auto;
+    cursor:default;
+}
+
+#categoryList li h4  {
+    margin:0px;
+    background:url('images/openitems/bg-category.jpg') repeat-x right center;
+    padding:1px 0px;
+    height:20px;
+    color:#555;
+    font-weight:normal;
+}
+
+#categoryList li h4:hover  {
+    margin:0px 0px 0px 0px;
+    padding:0px;
+    border-top:1px #ccc solid;
+    border-bottom:1px #ccc solid;
+    color:#000;
+}
+
+#categoryList li h4 .downArrow  {
+    position:relative;
+    float:right;
+    background:transparent url('images/openitems/down-arrow.gif') no-repeat center center;
+    width:7px;
+    height:4px;
+    margin:5px 4px 3px 4px;
+}
+
+#categoryList li h4 .rightArrow  {
+    position:relative;
+    float:right;
+    background:transparent url('images/openitems/left-arrow.gif') no-repeat center center;
+    width:4px;
+    height:7px;
+    margin:4px 5px 4px 3px;
+}
+
+.itemList  {
+    margin:0px;
+    padding:0px;
+    list-style:none;
+}
+
+.itemList li  {
+    padding:3px 16px 3px 3px;
+    cursor:pointer;
+}
+
+.itemList li:hover  {
+    background-color:#F5F9FA;
+    color:#334;
+}
+
+/* footer */
+#openItemsFooter  {
+    height:20px;
+    border:1px solid #9AC0D2;
+    padding:3px;
+    text-align:left;
+    z-index:1;
+}
+
+/* footer buttons (control bar) */
+#buttonBar  {
+    margin:0px;
+    list-style:none;
+    padding:0px;
+}
+
+#buttonBar li  {
+    float:left;
+    margin:0px 2px;
+}
+
+#buttonBar span  {
+    display:block;
+    padding:3px 10px 4px 10px;
+    font:normal .7em Arial, sans-serif;
+    color:#666;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+#buttonBar span:hover  {
+    color:#0C60A6;
+}
+/* selected tab */
+#selectedTab  {
+    position:absolute;
+    top:208px;
+    z-index:4;
+    width:43px;
+    height:24px;
+    right:0px;
+}
+
+#selectedTab img  {
+    position:absolute;
+    top:4px;
+    right:11px;
+    z-index:5;
+}
+
+/* active open item */
+.activeOpenItem  {
+    background-color:#9AC0D2;
+    color:#ffffff;
+    border-bottom:1px #ffffff solid;
+}
+
+/* new/edit tab menu */
+
+.tabContentHeight  {
+    height:110px;
+}
+
+.tabContentDiv  {
+    position:relative;
+    float:right;
+    clear:both;
+    width:98%;
+    padding-right:2%;
+    height:30px;
+}
+
+.tabInfoTitle  {
+    float:right;
+    font-size:0.88em;
+    font-weight:bold;
+    color:#656564;
+    width:150px;
+}
+
+.tabInfoText  {
+    position:relative;
+    float:right;
+    font-size:0.88em;
+    font-weight:normal;
+    color:#656564;
+}
+
+.tabRadioGroup  {
+    position:relative;
+    float:right;
+}
+
+.tabRadio  {
+    position:relative;
+    float:right;
+    margin-right:0px;
+}

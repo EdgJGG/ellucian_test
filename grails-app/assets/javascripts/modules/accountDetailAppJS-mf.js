@@ -1,0 +1,11 @@
+//= require modules/angular-mf.js
+//= require modules/ar-common-mf.js
+//= require modules/commonComponents-mf.js
+//= require studentAccountsReceivable/accountDetailByTerm/app.js
+//= require studentAccountsReceivable/accountDetailByTerm/account-detail-by-term-controller.js
+//= require studentAccountsReceivable/accountDetailByTerm/common/services/accountDetail-service.js
+//= require studentAccountsReceivable/accountDetailByTerm/common/services/tccAccountDetail-service.js
+//= require studentAccountsReceivable/accountDetailByTerm/common/directives/accountSummeryByTermDisplayLabel.js
+//= require studentAccountsReceivable/accountDetailByTerm/common/directives/infoSection-directive.js
+//= require studentAccountsReceivable/accountDetailByTerm/common/directives/tccTuitionGroupBy-directive.js
+//= require studentAccountsReceivable/common/components/displayBalance-directive.js

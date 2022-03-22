@@ -1,0 +1,103 @@
+/*******************************************************************************
+ Copyright 2017-2021 Ellucian Company L.P. and its affiliates.
+*******************************************************************************/
+
+.xe-popup-container .xe-pop-content  {
+    font-size:0.750em;
+    color:#4F585F;
+    margin-top:2em;
+    position:relative;
+    min-height:75%;
+    padding-right:1.5em;
+    padding-left:1em;
+}
+
+
+
+#buttonContainer.enhanceUserExpButtonContainer  {
+    width:100%;
+    float:unset;
+    position:unset;
+}
+
+div#buttonContainer.buttonContainer  {
+    float:right;
+    clear:both;
+    bottom:0em;
+    position:fixed;
+    left:0em;
+    width:100%;
+}
+
+.xe-popup-container xe-button .primary  {
+    width:100%;
+}
+
+.enhanceUserExpButtonContainer  {
+    padding:4.8% 0;
+}
+
+.enhanceUserExpFooter  {
+    text-align:center;
+    font-size:inherit;
+}
+
+xe-button .secondary#noThanksBtn,#acceptBtn  {
+    padding-right:1.75em;
+    padding-left:1.75em;
+    margin-left:10px;
+    width:auto;
+}
+
+.xe-modal-footer-copyright-info a  {
+    color:#026bc8 !important;
+}
+/*** Media Query Section ***/
+@media (max-width: 1024px) and (orientation: landscape) {
+    .xe-popup-container xe-button .primary {
+    width:100%;
+    bottom:auto;
+}
+
+    div#buttonContainer.buttonContainer {
+    width:100%;
+}
+
+    .ui-select-choices  {
+    max-height:75px;
+}
+
+    body  {
+    overflow-y:auto !important;
+}
+}
+@media screen and (min-width: 768px) {
+
+    .xe-popup-container .xe-pop-content  {
+    font-size:1.5em;
+    color:#4F585F;
+    margin-top:2em;
+    position:relative;
+    min-height:75%;
+    padding-right:0em !important;
+    padding-left:1em;
+}
+
+
+
+    .xe-popup-container .xe-pop-content  {
+    font-size:0.875em;
+    margin:2em 0 0;
+    position:relative;
+    padding-right:0.5em;
+}
+
+    div#buttonContainer.buttonContainer  {
+    float:right;
+    height:0%;
+    bottom:auto;
+    width:auto;
+    clear:both;
+    position:relative;
+}
+}

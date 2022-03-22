@@ -1,0 +1,10 @@
+//= require modules/commonComponents-mf.js
+//= require views/studentProfile/facultyCard.js
+//= require studentCard.js
+//= require views/sectionDetails/sectionDetails.js
+//= require views/sectionDetails/ProfileCard.js
+//= require courseSectionDetailsCommon.js
+//= require views/studentSSB/studentSSB.js
+//= require views/studentProfile/studentProfile.js
+//= require flying-focus/flying-focus.js
+//= require views/studentHolds/studentHolds.js

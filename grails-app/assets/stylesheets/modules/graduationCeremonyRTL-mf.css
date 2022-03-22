@@ -1,0 +1,20 @@
+/*******************************************************************************
+ Copyright 2020 Ellucian Company L.P. and its affiliates.
+ *******************************************************************************/
+/*
+*= require modules/bootstrapRTL-mf.css
+*= require modules/commonComponentsRTL-mf.css
+*= require modules/xe-dialogRTL-mf.css
+*= require views/graduationCeremony/gcColumnContainer-rtl.css
+*= require views/graduationCeremony/gcBootstrapColumnLayout-rtl.css
+*= require views/graduationCeremony/gcTable-rtl.css
+*= require views/graduationCeremony/gcApp-rtl.css
+*= require views/graduationCeremony/gcApp-rtl-patch.css
+*= require views/graduationCeremony/deadline-rtl.css
+*= require views/graduationCeremony/graduationCeremonyAttendance-rtl.css
+*= require views/graduationCeremony/personalDetails-rtl.css
+*= require views/graduationCeremony/order-rtl.css
+*= require views/graduationCeremony/nameAndProgram-rtl.css
+*= require views/graduationCeremony/specialArrangements-rtl.css
+*= require views/graduationCeremony/summary-rtl.css
+*/

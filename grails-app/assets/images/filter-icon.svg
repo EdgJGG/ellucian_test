@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M14.4985,-3.33333337e-08 L1.50178122,-3.33333337e-08 C0.169343717,-3.33333337e-08 -0.502937535,1.61659372 0.441124969,2.56065623 L5.50000106,7.6213125 L5.50000106,13 C5.50000106,13.472125 5.72228124,13.9167188 6.09999999,14.25 L8.1,15.7208125 C9.07728125,16.4037813 10.5000011,15.768875 10.5000011,14.5208125 L10.5000011,7.6213125 L15.5591563,2.56065623 C16.5013125,1.61849997 15.8335938,-3.33333337e-08 14.4985,-3.33333337e-08 Z M8.99999997,6.99999997 L8.99999997,14.5 L6.99999997,13 L6.99999997,6.99999997 L1.49999997,1.49999997 L14.5,1.49999997 L8.99999997,6.99999997 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Renegotiation-Summary_2_mobile" transform="translate(-307.000000, -150.000000)">
+            <g id="Group" transform="translate(16.000000, 104.000000)">
+                <g id="Print-Copy" transform="translate(279.000000, 34.000000)">
+                    <g id="2---Extras/f/filter" transform="translate(12.000000, 12.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="filter" fill="#5B5E65" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <g id="Color/2-Nuetral/neutral-500" mask="url(#mask-2)"></g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

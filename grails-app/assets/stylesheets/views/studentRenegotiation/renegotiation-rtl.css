@@ -1,0 +1,1112 @@
+/*******************************************************************************
+Copyright 2021 Ellucian Company L.P. and its affiliates.
+*******************************************************************************/
+
+/*#region Common*/
+body  {
+    background-color:#f8f8f8;
+}
+
+@font-face  {
+    font-family:'OpenSans-SemiBold';
+    src:url('../fonts/OpenSans-Semibold.woff');
+}
+
+@font-face  {
+    font-family:'Nunito-SemiBold';
+    src:url('../fonts/nunito/Nunito-SemiBold.woff');
+}
+
+@font-face  {
+    font-family:'Nunito-Regular';
+    src:url('../fonts/nunito/Nunito-Regular.woff');
+}
+
+.renegotiation-body  {
+    padding:2.5rem 8.125rem 3.7% 8.125rem;
+    background-color:#f8f8f8;
+    min-height:100%;
+}
+
+.float-right {
+    float:left;
+}
+
+.renegotiation-inner-body  {
+    border-top:8px solid #51abff;
+    border-radius:6px;
+    box-shadow:0 19px 20px 0 rgba(0, 0, 0, 0.03), 0 3px 8px 0 rgba(0, 0, 0, 0.06);
+    background-color:#ffffff;
+    padding:2rem 2rem 2rem 2rem;
+}
+
+.renegotiation-body .filter-by-label {
+    margin-left:1em;
+    font-family:Nunito-semibold;
+    font-size:1rem;
+    font-style:normal;
+    font-stretch:normal;
+    line-height:1.375em;
+    letter-spacing:normal;
+    color:#151618 !important;
+}
+
+/*#region information text*/
+.renegotiation-body .info-text-body  {
+    border-top:2px solid #51abff;
+    background-color:#eff7ff;
+    width:100%;
+    display:table;
+    padding:1.5em 2em;
+}
+
+.renegotiation-body .info-text-icon  {
+    width:1.5rem;
+    height:1.5rem;
+    background:url(../../../images/account-summery-info-circle.svg) no-repeat;
+    display:table-cell;
+}
+
+.renegotiation-body .noRecordsInfo  {
+    margin-top:1em;
+}
+
+.renegotiation-body .info-text-font  {
+    font-family:Nunito-Regular;
+    font-size:1rem;
+    font-weight:normal;
+    font-style:normal;
+    font-stretch:normal;
+    line-height:1.38;
+    letter-spacing:normal;
+    color:#2874bb;
+    display:-webkit-box;
+    margin-right:1rem;
+}
+
+
+xe-badge .approved-badge, xe-badge .rejected-badge, xe-badge .awaiting-badge  {
+    line-height:2em;
+}
+
+/*#endregion information text*/
+
+/* #region Hide spinner for text number field */
+/* For Firefox */
+input[type='number']  {
+    -moz-appearance:textfield;
+}
+/* Webkit browsers like Safari and Chrome */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button  {
+    -webkit-appearance:none;
+    margin:0;
+}
+/* #endregion Hide spinner for text number field */
+
+/*#endregion Common*/
+
+/*#region Desktop*/
+#reneg-content {
+    height:100%;
+}
+
+.renegotiation-body .page-title {
+    font-family:Nunito-Regular;
+    font-weight:normal !important;
+    font-style:normal;
+    font-stretch:normal;
+    letter-spacing:normal;
+    font-size:1.625rem;
+    line-height:1.875rem;
+    color:#151618;
+    display:inline-block;
+}
+
+/*region Desktop dropdown*/
+.renegotiation-body .ui-select-container  {
+    min-width:14.375rem;
+    margin-left:1rem;
+}
+
+.renegotiation-body .ui-select-container .select2-choice  {
+    height:3.375rem;
+}
+
+.renegotiation-body .ui-select-container .select2-choice > .select2-chosen {
+    font-family:Nunito-Regular;
+    font-size:1rem;
+    font-style:normal;
+    font-stretch:normal;
+    line-height:1.38;
+    letter-spacing:normal;
+    color:#151618 !important;
+    margin-top:1rem;
+    margin-right:0.375rem;
+}
+
+.renegotiation-body .ui-select-container .select2-choice > .select2-chosen label {
+    font-weight:normal !important;
+}
+
+.renegotiation-body .ui-select-choices .select2-result-label  {
+    font-family:Nunito-Regular;
+    font-size:1rem !important;
+    font-weight:normal;
+    font-style:normal;
+    font-stretch:normal;
+    line-height:1.1;
+    letter-spacing:normal;
+    color:#151618;
+    min-height:3em;
+    padding:0.875rem 0.5rem 0.875rem 0px !important;
+}
+
+.renegotiation-body .select2-drop {
+    width:101% !important;
+}
+
+.renegotiation-body .select2-search input {
+    width:100% !important;
+}
+/*#endregion*/
+
+/*#region Desktop Grid*/
+.renegotiation-body #reNegotiationSummaryTable {
+    padding-top:2rem;
+}
+
+.renegotiation-body .table-container  {
+    border-right:none;
+    border-left:none;
+    border-bottom:solid 2px #979797;
+}
+
+.renegotiation-body .table-container .thead {
+    border-top:0px;
+}
+
+.renegotiation-body .table-container {
+    border-top:0px;
+}
+
+.renegotiation-body .table-container .tbody thead tr th:after, .table-container .tbody thead tr th:before, .table-container .thead thead tr th:after, .table-container .thead thead tr th:before {
+    display:none;
+}
+
+.renegotiation-body .table-container .tbody thead tr th.sortable, .table-container .thead thead tr th  {
+    font-family:OpenSans-Regular;
+    font-size:0.875rem;
+    font-weight:normal;
+    font-style:normal;
+    font-stretch:normal;
+    line-height:1.25em;
+    letter-spacing:normal;
+    color:#5B5E65;
+}
+
+.renegotiation-body #reNegotiationSummaryTable .tbody  {
+    overflow-y:hidden;
+}
+
+.renegotiation-body .table-container .tbody tbody tr  {
+    cursor:pointer;
+}
+
+.renegotiation-body .table-container .tbody tbody tr td  {
+    font-family:OpenSans-Regular;
+    font-size:0.875rem !important;
+    font-weight:normal;
+    font-style:normal;
+    font-stretch:normal;
+    line-height:1.25rem;
+    letter-spacing:normal;
+    color:#151618 !important;
+    word-wrap:break-word;
+}
+
+.renegotiation-body .trDesktop table  {
+    border:none !important;
+}
+
+.renegotiation-body .trDesktop th  {
+    padding:1.5em 1em;
+    height:58px;
+}
+
+/*#region info message*/
+.renegotiation-body ss-help-message {
+    position:absolute;
+}
+
+.renegotiation-body .infoIcon  {
+    width:1rem;
+    height:1rem;
+    background:url(../../../images/info-circlex16.png) no-repeat;
+    position:relative;
+    display:inline-block;
+    margin-right:0.5rem;
+}
+
+.renegotiation-body .helpMessage  {
+    visibility:hidden;
+    width:20.813rem;
+    min-height:8.5rem;
+    border-radius:0.125rem;
+    background-color:#5b5e65;
+    font-family:OpenSans-Regular;
+    font-size:0.75rem;
+    font-weight:normal;
+    font-style:normal;
+    font-stretch:normal;
+    line-height:1rem;
+    letter-spacing:normal;
+    color:#ffffff;
+    padding:1rem;
+    position:absolute;
+    top:100%;
+    left:0;
+    margin-top:6px;
+    margin-right:-327px;
+    text-align:right;
+}
+
+.renegotiation-body .infoIcon:hover .helpMessage  {
+    visibility:visible;
+}
+
+.renegotiation-body .infoIcon:focus .helpMessage  {
+    visibility:visible;
+}
+
+.renegotiation-body .infoIcon label {
+    font-weight:normal;
+    margin:unset;
+}
+
+.renegotiation-body .helpMessage .checked {
+    width:1rem;
+    height:1rem;
+    background:url(../../../images/simulation_check.svg) no-repeat;
+    position:relative;
+    display:inline-block;
+    margin-left:0.5rem;
+    top:0.25rem;
+}
+
+.renegotiation-body .infoIcon .padding-bottom-8 {
+    padding-bottom:0.5rem;
+}
+
+.renegotiation-body .helpMessage .un-checked {
+    width:1rem;
+    height:1rem;
+    background:url(../../../images/simulation_uncheck.svg) no-repeat;
+    position:relative;
+    display:inline-block;
+    margin-left:0.5rem;
+    top:0.25rem;
+}
+/*#endregion*/
+/*#endregion*/
+
+/*#region renegotiationDashboard*/
+.renegotiation-body #new-neg-button {
+    display:inline;
+}
+
+#reneg-button {
+    visibility:hidden;
+}
+
+.create-negotiation-button {
+    height:2.5rem;
+    font-family:Nunito-SemiBold !important;
+    font-size:1rem !important;
+    font-weight:600;
+    font-style:normal;
+    font-stretch:normal;
+    line-height:1.375rem;
+    letter-spacing:normal;
+    border-radius:2000px !important;
+    float:left;
+    padding:0.563rem 1rem !important;
+}
+
+ xe-button .create-negotiation-button:hover:not([disabled]) {
+    font-family:Nunito-SemiBold !important;
+    font-size:1rem;
+    font-weight:600;
+    font-style:normal;
+    font-stretch:normal;
+    line-height:1.375rem;
+    letter-spacing:normal;
+}
+
+.renegotiation-body #renegDashboard-data {
+    padding-top:2.313rem;
+}
+
+.renegotiation-body .delete-button {
+    background:url(../../../images/trash.svg) no-repeat;
+    background-size:contain;
+    width:1.125rem;
+    height:1.125rem;
+    display:inline-block;
+    cursor:pointer;
+    margin-right:0.625rem;
+}
+
+.renegotiation-body .no-records-msg  {
+    padding-top:2.5rem;
+}
+/*#endregion*/
+
+/*#region renegotiation simulation*/
+#renegotiationSimulation  #boletoNumber.ui-select-container {
+    min-width:10.5rem;
+}
+
+#renegotiationSimulation  #bankBoleto.ui-select-container {
+    min-width:10.5rem;
+}
+
+#renegotiationSimulation  #studyPathDropdown.ui-select-container {
+    min-width:15.5rem;
+}
+
+#renegotiationSimulation .ui-select-container {
+    min-width:12.5rem;
+}
+
+#renegotiationSimulation #payment-dropdown {
+    padding-top:1.5rem;
+}
+
+#renegotiationSimulation #payment-dropdown .ui-select-container {
+    min-width:18.688rem;
+}
+
+.renegotiation-body #renegSimulation-data {
+    margin-top:2.125rem;
+}
+
+.renegotiation-body #boletosTable {
+    margin-top:2rem;
+}
+
+.renegotiation-body xe-badge .xe-badge {
+    font-size:0.875rem;
+    border-radius:0.5em;
+    font-family:OpenSans-SemiBold;
+}
+
+.renegotiation-body .heading-label {
+    height:2rem;
+    color:#5B5E65;
+    font-family:Nunito-Regular;
+    font-size:1.625rem;
+    line-height:2rem;
+    display:block;
+}
+
+.renegotiation-body .renegotation-accordion {
+    padding:0.688rem 0.875rem 1.063rem 0.875rem;
+}
+
+.renegotiation-body .info-text-up-arrow  {
+    width:1.375rem;
+    height:1.125rem;
+    background:url(../../../images/arrow-up-message.svg) no-repeat;
+    display:table-cell;
+}
+
+.renegotiation-body .info-text-down-arrow  {
+    width:1.375rem;
+    height:1.125rem;
+    background:url(../../../images/arrow-down-message.svg) no-repeat;
+    display:table-cell;
+}
+
+xe-radio-button input[type=radio]+label {
+    color:#151618;
+    font-family:"OpenSans-Regular";
+    font-size:0.875rem;
+    line-height:1.25rem;
+    font-weight:normal;
+}
+
+.renegotiation-body .arrow-down  {
+    background:url(../../../images/account-summery-arrow-down.svg) no-repeat;
+    background-size:contain;
+    width:1.125rem;
+    height:1.125rem;
+    display:inline-block;
+    float:left !important;
+    cursor:pointer;
+}
+
+.renegotiation-body .arrow-up  {
+    background:url(../../../images/account-summery-arrow-down.svg) no-repeat;
+    background-size:contain;
+    width:1.125rem;
+    height:1.125rem;
+    display:inline-block;
+    float:left !important;
+    transform:rotate(180deg);
+    cursor:pointer;
+}
+
+.renegotiation-body .available-renegotiation-details {
+    background-color:#F6F8F8;
+    padding:1rem 3.5rem 1.5rem 1.5rem;
+}
+
+.renegotiation-body .available-renegotiation-details .available-renegotiation-heading {
+    height:1.313em;
+    color:#5B5E65;
+    font-family:Nunito-SemiBold;
+    font-size:1rem;
+    font-weight:600;
+    line-height:1.313rem;
+    margin-bottom:1rem;
+}
+
+.renegotiation-body .available-renegotiation-details .available-renegotiation-calculation  {
+    height:auto;
+    color:#5B5E65;
+    font-family:"OpenSans-Regular";
+    font-size:0.875rem;
+    line-height:1.25rem;
+    width:100%;
+}
+
+.renegotiation-body .available-renegotiation-details .available-renegotiation-calculation table {
+    width:100%;
+    border:0px;
+    background-color:#FFFFFF;
+}
+
+.renegotiation-body .available-renegotiation-details .available-renegotiation-calculation table tr {
+    border-bottom:1px solid #EEEEEF;
+}
+
+.renegotiation-body .available-renegotiation-details .available-renegotiation-calculation table tfoot {
+    font-family:OpenSans-SemiBold;
+}
+
+.renegotiation-body .available-renegotiation-details .available-renegotiation-calculation table th {
+    padding:0.688em 1em 1.063em 1em;
+    font-weight:normal;
+}
+
+.renegotiation-body .available-renegotiation-details .available-renegotiation-calculation table td {
+    padding:0.5em 0em 0.5em 0em;
+}
+
+.renegotiation-body .available-renegotiation-details .available-renegotiation-calculation span {
+    width:24%;
+    display:inline-block;
+}
+
+.renegotiation-body .color-bold {
+    color:#151618;
+}
+
+.renegotiation-body .ip-heading {
+    color:#5B5E65;
+    font-family:Nunito-Regular;
+    font-size:1.125rem;
+    line-height:1.5rem;
+    margin-bottom:1.113rem;
+}
+
+.renegotiation-body .input-icon-group  {
+    border:1px solid #B2B3B7;
+    border-radius:6px;
+    display:inline-block;
+}
+
+.renegotiation-body .input-icon {
+    background-color:#B2B3B7;
+    border-radius:6px 0px 0px 6px;
+}
+
+.renegotiation-body .down-payment {
+    border:none;
+    border-radius:0px 6px 6px 0px;
+    height:2rem;
+    color:#151618;
+    font-family:OpenSans-Regular;
+    font-size:1rem;
+    line-height:1.375rem;
+    width:6.5rem;
+    text-align:end;
+    padding-left:0.75rem;
+}
+
+.renegotiation-body .input-icon {
+    padding:0.4rem 1rem;
+    color:#151618;
+    font-family:OpenSans-Regular;
+    font-size:1rem;
+    position:absolute;
+}
+
+.renegotiation-body .total-label {
+    color:#5B5E65;
+    font-family:OpenSans-Regular;
+    font-size:1rem;
+    line-height:1.313rem;
+}
+
+.renegotiation-body .final-total {
+    color:#151618;
+    font-family:Nunito-Regular;
+    font-size:1.125rem;
+    line-height:1.5rem;
+}
+
+.renegotiation-body .final-total-value {
+    color:#151618;
+    font-family:Nunito-semibold;
+    font-size:1.125rem;
+    line-height:1.5rem;
+    font-weight:600;
+}
+
+.renegotiation-body .padding-bottom-16 {
+    padding-bottom:1rem;
+}
+
+.renegotiation-body .padding-bottom-24 {
+    padding-bottom:1.5rem;
+}
+
+.renegotiation-body .span-50 {
+    width:49%;
+    display:inline-block;
+}
+
+.renegotiation-body .align-right {
+    text-align:left;
+}
+
+.renegotiation-body .bottom-border {
+    border-bottom:1px solid #EEEEEF;
+}
+
+.renegotiation-body .input-warning {
+    border:1px solid #FF3030;
+}
+
+.renegotiation-body .minimum-requirement {
+    font-size:0.875rem;
+}
+
+.renegotiation-body .warning-message  {
+    color:#E32D27;
+    font-family:OpenSans-Regular;
+    font-size:0.875rem;
+    line-height:1.25rem;
+    padding-top:0.5rem;
+    padding-left:1.25rem;
+}
+
+.renegotiation-body .xe-popup-mask {
+    position:fixed !important;
+}
+
+.renegotiation-body .xe-popup-container  {
+    width:100% !important;
+    height:42em !important;
+    padding:2.5rem 2rem 2rem 2rem;
+}
+
+.renegotiation-body .xe-popup-wrapper {
+    padding:3.375rem 9.063rem;
+}
+/*end-region*/
+
+/*#region checkList*/
+.renegotiation-body #checkList label {
+    color:#151618;
+    font-family:OpenSans-Regular;
+    font-size:1rem;
+    line-height:1.25rem;
+    font-weight:normal;
+}
+
+.renegotiation-body #checkList .margin-top-32 {
+    margin-top:2rem;
+}
+
+.renegotiation-body #checkList .margin-top-24 {
+    margin-top:1.5rem;
+}
+
+.renegotiation-body #checkList .margin-bottom-24 {
+    margin-bottom:1.5rem;
+}
+
+.renegotiation-body #checkList #check-list-data {
+    padding:0.688rem 0.875rem;
+}
+
+.renegotiation-body #checkList .xe-container input:disabled~.xe-checkmark  {
+    background-color:#D9D9D9;
+}
+/*#endregion*/
+
+/*#region simulation view*/
+.renegotiation-body .header-term, .header-term-value, .header-status {
+    color:#5B5E65;
+    font-family:OpenSans-Regular;
+    font-size:0.875rem;
+    line-height:1.313rem;
+}
+
+.renegotiation-body .header-term-value {
+    color:#151618;
+    margin-right:1.5rem;
+}
+
+.renegotiation-body .header-status-value {
+    float:left;
+}
+
+.renegotiation-body .renegotation-accordion label {
+    color:#151618;
+    font-family:OpenSans-Regular;
+    font-size:0.875rem;
+    line-height:1.25rem;
+    font-weight:normal;
+}
+
+.renegotiation-body .simulation-buttons xe-button .secondary {
+    padding:.563rem 2rem;
+    border-radius:62.5rem;
+    color:#026BC8;
+    font-family:Nunito-semibold !important;
+    font-size:1rem;
+    font-weight:600;
+    line-height:1.375rem;
+    margin-top:2rem;
+}
+
+.renegotiation-body .simulation-buttons xe-button .secondary:hover:not([disabled]) {
+    color:#FFFFFF;
+}
+
+.renegotiation-body .simulation-buttons xe-button .secondary:focus:not([disabled]) {
+    color:#FFFFFF;
+}
+
+.renegotiation-body .simulation-buttons xe-button .primary {
+    padding:.563rem 2rem;
+    border-radius:62.5rem;
+    color:#FFFFFF;
+    font-family:Nunito-semibold !important;
+    font-size:1rem;
+    font-weight:600;
+    line-height:1.375rem;
+    margin-top:2rem;
+}
+
+.renegotiation-body .simulation-buttons xe-button {
+    padding-left:1rem;
+}
+
+.renegotiation-body #selectedCount {
+    padding-top:1.5rem;
+}
+
+.renegotiation-body #selectedCount label {
+    color:#151618;
+    font-family:Nunito-Regular;
+    font-size:0.875rem;
+    line-height:1.5rem;
+    font-weight:normal;
+}
+
+.renegotiation-body #preview-pop-button {
+    padding-top:1.5rem;
+}
+
+.renegotiation-body #preview-pop-button .primary {
+    border-radius:62.5rem;
+}
+
+.renegotiation-body #preview-pop-button .primary {
+    font-family:Nunito-SemiBold !important;
+    font-size:1rem;
+    font-weight:600;
+    font-style:normal;
+    font-stretch:normal;
+    line-height:1.375rem;
+    letter-spacing:normal;
+    width:auto;
+    padding:0.869rem 1.781rem 0.926rem;
+}
+
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td  {
+    border:0;
+}
+
+#preview-pop-button xe-button .secondary:hover:not([disabled])  {
+    color:#FFFFFF;
+}
+
+#preview-pop-button xe-button .secondary {
+    padding:.563rem 2rem;
+    border-radius:62.5rem;
+    color:#026BC8;
+    font-family:Nunito-semibold !important;
+    font-size:1rem;
+    font-weight:600;
+    line-height:1.375rem;
+    margin-top:2rem;
+}
+/*** Media Query Section ***/
+@media screen and (min-device-width: 768px)  and (max-device-width: 800px) {
+
+    #previewTable  {
+    width:42em !important;
+}
+}
+@media screen and (max-device-width: 768px) {
+
+    xe-button .secondary:hover:not([disabled])  {
+    background-color:#065AA5;
+    border:none;
+    color:#FFF;
+}
+
+    .renegotiation-body .total-label {
+    padding:0em 0em 0em 2em;
+}
+
+    .renegotiation-body #preview-pop-button xe-button .secondary  {
+    border:1px solid #026BC8;
+    color:#026BC8;
+    border-radius:62.5rem;
+    font-family:Nunito-semibold !important;
+    font-size:1rem;
+    font-weight:600;
+    line-height:1.375rem;
+    margin-top:2rem;
+}
+
+    /*popup*/
+    .renegotiation-body .xe-popup-container  {
+    width:100% !important;
+    height:40em !important;
+    padding:2.5rem 2rem 2rem 2rem;
+}
+
+    /*#region Common*/
+
+    .renegotiation-body  {
+    padding:2.5rem 1rem 1rem 1rem;
+    background-color:#f8f8f8;
+}
+    .renegotiation-body .xe-popup-wrapper  {
+    padding:1rem 1rem;
+}
+
+    .renegotiation-body #filter-data  {
+    display:none;
+}
+    /*#endregion Common*/
+
+    /*#region Summary*/
+    .renegotiation-body #new-neg-button {
+    display:none;
+}
+
+    #reneg-button {
+    visibility:visible;
+    height:5.75rem;
+    width:100%;
+    background-color:#FFF;
+    position:-webkit-sticky;
+    position:sticky;
+    bottom:0;
+    box-shadow:0 -0.75rem 0.313rem -0.313rem rgba(0, 0, 0, 0.03);
+    padding:1.625rem 1rem;
+}
+
+    .renegotiation-body .page-title  {
+    font-family:Nunito-Regular;
+    font-weight:normal !important;
+    font-style:normal;
+    font-stretch:normal;
+    letter-spacing:normal;
+    font-size:1.313rem;
+    line-height:1.75rem;
+    color:#151618;
+    display:inline;
+}
+
+    .renegotiation-body #reNegotiationSummaryTable {
+    margin-top:1.875rem;
+}
+    /**/
+    .renegotiation-body .available-renegotiation-details .available-renegotiation-calculation table {
+    border-collapse:unset;
+    background-color:transparent;
+}
+    .renegotiation-body .heading-label {
+    height:auto;
+}
+
+    /**/
+
+    /*#region Summary Grid*/
+    .renegotiation-body .table-container .tbody tbody tr td  {
+    font-family:OpenSans-Regular;
+    font-size:0.875rem !important;
+    font-weight:normal;
+    font-style:normal;
+    font-stretch:normal;
+    line-height:1.25rem;
+    letter-spacing:normal;
+    color:#151618 !important;
+    word-wrap:break-word;
+    width:100%;
+}
+
+    .renegotiation-body .table-container .tbody tbody tr > :first-child  {
+    text-align:right;
+    color:#1264CC !important;
+    font-family:Nunito-semibold;
+    font-size:1rem !important;
+    font-weight:600;
+    line-height:1.375rem;
+}
+
+    .renegotiation-body .table-container .tbody tbody tr > :first-child div {
+    text-align:right;
+}
+
+    .renegotiation-body .table-container .tbody tbody tr > :first-child:before  {
+    display:none;
+}
+
+    .renegotiation-body .table-container .tbody tbody tr > :last-child  {
+    text-align:right;
+    color:#1264CC !important;
+}
+
+    .renegotiation-body .table-container .tbody tbody tr > :last-child:before  {
+    display:none;
+}
+    /*#endregion*/
+
+    .renegotiation-body .table-container .tbody tbody tr td div {
+    text-align:left;
+}
+
+    .table-container .data-table.mobileLayout tbody tr td:before {
+    float:right;
+    width:unset;
+    font-weight:100;
+}
+
+    /*#region Summary Help*/
+    .renegotiation-body .helpMessage  {
+    visibility:visible;
+    position:relative;
+    top:0;
+    left:0;
+    margin-top:5px;
+    margin-right:0px;
+    width:100%;
+}
+
+    .renegotiation-body .helpMessage div {
+    text-align:right !important;
+}
+
+    #mobileInfo label {
+    display:inline;
+}
+
+    .renegotiation-body .filter-button  {
+    width:40px;
+    height:40px;
+    border:0px;
+    background:url(../../../images/filter-icon.svg) center no-repeat #f4f4f4;
+    align-items:center;
+    border-radius:4px;
+    float:left;
+}
+
+    .renegotiation-body .no-records-msg  {
+    padding-top:2.5rem;
+}
+    /*#endregion Summary Help*/
+
+    .create-negotiation-button {
+    height:100%;
+    width:100%;
+    font-family:Nunito-SemiBold !important;
+    font-size:1rem !important;
+    font-weight:600;
+    font-style:normal;
+    font-stretch:normal;
+    line-height:1.375rem;
+    letter-spacing:normal;
+    border-radius:2000px !important;
+    float:left;
+    padding:0.563rem 1rem;
+}
+
+    xe-button .create-negotiation-button:hover:not([disabled]) {
+    font-family:Nunito-SemiBold !important;
+    font-size:1rem;
+    font-weight:600;
+    font-style:normal;
+    font-stretch:normal;
+    line-height:1.375rem;
+    letter-spacing:normal;
+}
+
+    xe-button .apply-filter-button {
+    font-family:Nunito-SemiBold !important;
+    font-size:1rem;
+    font-weight:600;
+    font-style:normal;
+    font-stretch:normal;
+    line-height:1.375rem;
+    letter-spacing:normal;
+    border-radius:100px;
+    height:2.5rem;
+}
+
+    xe-button .apply-filter-button:hover:not([disabled]) {
+    font-family:Nunito-SemiBold !important;
+    font-size:1rem;
+    font-weight:600;
+    font-style:normal;
+    font-stretch:normal;
+    line-height:1.375rem;
+    letter-spacing:normal;
+    border-radius:100px;
+    height:2.5rem;
+}
+
+    #filter-popup .xe-popup-wrapper  {
+    padding:0rem 1rem;
+}
+
+    #filter-popup .xe-popup-container  {
+    padding:1.5rem;
+    height:auto !important;
+    border-radius:.375rem;
+}
+
+    #filter-popup .xe-popup-mask {
+    background-color:rgba(0,0,0,0.5);
+}
+
+    #filter-popup .xe-popup-container .xe-pop-content {
+    padding:0rem;
+}
+
+    #filter-popup .xe-popup-container .xe-app-title  {
+    padding-right:0px;
+}
+
+    #filter-popup .ui-select-container  {
+    min-width:100%;
+    margin-left:0rem;
+    margin-bottom:1rem;
+}
+
+    #filter-popup .ui-select-container .select2-choice>.select2-chosen {
+    font-family:OpenSans-Regular;
+    font-size:1rem;
+    color:#5B5E65;
+    line-height:1.375rem;
+    padding-top:.875rem;
+}
+
+    #filter-popup .ui-select-container .select2-choice, .ui-select-multiple .select2-choices {
+    min-height:3.375rem !important;
+}
+
+    .renegotiation-body #filter-badge xe-badge .xe-badge {
+    font-family:OpenSans-Regular;
+    border-radius:1.5rem;
+    color:#5B5E65;
+    width:5.438rem;
+}
+
+    .renegotiation-body .details-label {
+    width:80% !important;
+}
+
+    .renegotiation-body .details-label-right {
+    text-align:left;
+    width:10% !important;
+}
+
+    .renegotiation-body .available-renegotiation-details .available-renegotiation-calculation table tfoot  {
+    display:block;
+    width:100%;
+}
+    /*#endregion Summary*/
+
+    .renegotiation-body .available-renegotiation-details  {
+    padding:0 0 0 0;
+}
+
+    /*table responsive redesign_tables/
+    /* Force table to not be like tables anymore */
+    #redesign_tables table,
+    #redesign_tables thead,
+    #redesign_tables tbody,
+    #redesign_tables th,
+    #redesign_tables td,
+    #redesign_tables tr  {
+    display:block;
+}
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    #redesign_tables thead tr  {
+    position:absolute;
+    top:-9999px;
+    right:-9999px;
+}
+
+    #redesign_tables tr  {
+    border-bottom:1px solid #ccc;
+}
+
+    #redesign_tables td  {
+    border:none;
+    position:relative;
+    padding-right:70%;
+    white-space:normal;
+    text-align:right;
+}
+
+    #redesign_tables td:before  {
+    position:absolute;
+    top:6px;
+    right:6px;
+    width:45%;
+    padding-left:10px;
+    white-space:nowrap;
+    text-align:right;
+    font-weight:bold;
+}
+
+    /*
+    Label the data
+    */
+    #redesign_tables td:before  {
+    content:attr(data-title);
+}
+}

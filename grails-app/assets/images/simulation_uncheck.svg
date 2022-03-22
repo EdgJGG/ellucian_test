@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 55.1 (78136) - https://sketchapp.com -->
+    <title>27503C65-6397-4BFE-BD21-E8BE8E8C6ACE@2x</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M8,0.25 C3.71978125,0.25 0.25,3.71978125 0.25,8 C0.25,12.2802187 3.71978125,15.75 8,15.75 C12.2802187,15.75 15.75,12.2802187 15.75,8 C15.75,3.71978125 12.2802187,0.25 8,0.25 Z M12.4194065,3.58059368 C14.7061565,5.86731241 14.827219,9.43374987 12.9182815,11.8576248 L4.14237499,3.08171869 C6.56700006,1.17218746 10.1332814,1.29443745 12.4194065,3.58059368 Z M3.58059386,12.4194062 C1.2938438,10.1326874 1.1727813,6.56624997 3.08171885,4.14237499 L11.8576253,12.9182812 C9.43300026,14.8278124 5.86671892,14.7055624 3.58059386,12.4194062 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Renegotiation-Summary-with-Status" transform="translate(-666.000000, -422.000000)">
+            <g id="Group-Copy-2" transform="translate(650.000000, 382.000000)">
+                <g id="Group-4">
+                    <g id="Group-9" transform="translate(16.000000, 40.000000)">
+                        <g id="Left-Icon-1---Main-Use/error">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="1---Main-Use/error" fill="#B2B3B7" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

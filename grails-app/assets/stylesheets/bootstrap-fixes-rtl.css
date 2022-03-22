@@ -1,0 +1,12 @@
+
+/*** Media Query Section ***/
+@media (max-width: 767px) {
+	body  {
+    padding-right:0px;
+    padding-left:0px;
+}
+
+	.navbar-inner  {
+    border-radius:0px;
+}
+}

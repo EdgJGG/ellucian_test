@@ -1,0 +1,49 @@
+
+.select2-results li {
+    line-height: 2.5em;
+    border-bottom: 1px solid #EEEEEF;
+}
+
+.select2-results ul li:first-child {
+    border-top: 1px solid #EEEEEF;
+}
+
+.select2-results .select2-highlighted {
+    background: 100% #026BC8;
+    color: #FFF;
+}
+
+.select2-search input {
+    border-radius: 4px;
+}
+
+.listFilterFooter-buttons {
+    font-size:1.2em;
+    font-weight:bold;
+}
+
+.tabset .tab a {
+    display: inline-block;
+    width: 100%;
+    padding: 0.75em 0 0.5em 0;
+    margin: 0;
+    text-decoration: none;
+    color: #026BC8;
+}
+
+li.selected {
+    border-bottom: 0.250em solid #026BC8;
+}
+
+.tabset .tab:hover {
+    border-bottom: 0.250em solid #026BC8;
+}
+
+table.grid>thead>tr>th {
+    background: none;
+}
+
+.profile-container a:focus {
+    box-shadow: none;
+    border-radius: 0px;
+}

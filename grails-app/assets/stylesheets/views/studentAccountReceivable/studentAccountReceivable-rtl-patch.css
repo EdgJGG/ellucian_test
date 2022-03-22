@@ -1,0 +1,43 @@
+/*******************************************************************************
+Copyright 2019 Ellucian Company L.P. and its affiliates.
+*******************************************************************************/
+
+/*   Desktop   */
+.form1098 label {
+    padding: 8px 0px 0px 8px !important;
+}
+
+#cell4 {
+    text-align: right !important;
+}
+
+#t3r1cell4 {
+    text-align: right !important;
+}
+
+.checkbox label:after {
+    border-left: 2px solid #fff !important;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(-20px);
+    -ms-transform: translateX(-20px);
+    transform: translateX(-20px);
+}
+
+.ui-select-container .select2-choice > .select2-chosen{
+    margin-top: 12px;
+}
+
+.helpIcon {
+    background: url(../../../images/question-circle-flipped.svg) no-repeat;
+}
+
+.helpIcon:hover {
+    background: url(../../../images/question-circle-blue-flipped.svg) no-repeat;
+}
+
+/*.account-summary-body .table-container.no-data:not(.empty) .tbody #msg{*/
+/*    position: relative;*/
+/*    text-align: center; */
+/*}*/
